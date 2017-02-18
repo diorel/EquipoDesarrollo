@@ -58,7 +58,7 @@
                         <asp:Label ID="lblResultado" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:Button ID="btnEnviar" runat="server" Text="Enviar" />
+                        <asp:Button ID="btnEnviar" runat="server" Text="Enviar" OnClick="Button1_Click" />
                     </td>
                 </tr>
             </table>

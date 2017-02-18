@@ -27,7 +27,7 @@ namespace AppEquipo
             edad = Convert.ToInt32(txtEdad.Text);
             telefono = txtTelefono.Text;
 
-            lblResultado.Text ="Nombre: " + nombre + "Apellido: " + apellido + "Edad: " edad.ToString() + "Telefono: " + Telefono;
+            lblResultado.Text ="Nombre: " + nombre + "Apellido: " + apellido + "Edad: " + edad.ToString() + "Telefono: " + telefono.ToString();
 
         }
     }

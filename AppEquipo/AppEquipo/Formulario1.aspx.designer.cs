@@ -22,19 +22,21 @@ namespace AppEquipo {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-<<<<<<< HEAD
         /// Control Button1.
-=======
-        /// Control Label1.
->>>>>>> origin/master
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Button Button1;
-=======
+        
+        /// <summary>
+        /// Control Label1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
@@ -117,6 +119,5 @@ namespace AppEquipo {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnEnviar;
->>>>>>> origin/master
     }
 }
