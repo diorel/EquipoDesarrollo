@@ -13,5 +13,22 @@ namespace AppEquipo
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            String nombre;
+            String apellido;
+            int edad;
+            String telefono;
+            
+
+            nombre = txtNombre.Text;
+            apellido = txtApellido.Text;
+            edad = Convert.ToInt32(txtEdad.Text);
+            telefono = txtTelefono.Text;
+
+            lblResultado.Text ="Nombre: " + nombre + "Apellido: " + apellido + "Edad: " edad.ToString() + "Telefono: " + Telefono;
+
+        }
     }
 }
